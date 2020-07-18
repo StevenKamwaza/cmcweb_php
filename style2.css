@@ -1,0 +1,113 @@
+*{
+    /*#6db9ef,#7ce08a
+     background-color: -moz-linear-gradient(0,#7DA2A9, #7f428f); */
+    /* background: linear-gradient(to right,#7DA2A9, #7f428f);  */
+    font-family: sans-serif;
+
+}
+
+
+.wapper{
+    background-color: #ccc;
+    min-height: 15rem;
+}    
+.courses img{
+    width: 14%;
+    margin-left: 1.9rem;
+    margin-top: -4%;
+}
+
+.section{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    margin-top: 4%;
+
+}
+.section h1{
+    color: #fff;
+    line-height: 30px;
+}
+h4{
+    /* color: skyblue; */
+    color: #6db9ef;
+    font-size: 1.3rem;
+    text-justify: newspaper;
+    word-spacing: inherit;
+    font-stretch: semi-expanded;
+}
+
+.btn{
+    background-color: olivedrab;
+    padding: 0.7rem 1rem;
+    color: #fff;
+    /* border: none; */
+    border-radius: 10px;
+}
+.features{
+
+    margin-top: 4%;
+    margin-bottom: 2%;
+}
+.features button{
+    padding: 0.7rem 2rem;
+    margin-top: 2rem;
+    font-size: 1.2rem;  
+    opacity: 0.7;
+}
+.showcase{
+    background-color: #7DA2A9;
+}
+ h1{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+}
+#courses{
+    display: flex ;
+    text-align: center;
+}
+#courses ul{
+    align-self: auto;
+    padding: 10px;
+    align-self: center;
+}
+#courses ul li{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    list-style-type: none;
+    list-style: none;
+    font-weight: normal;
+   
+    float: left;
+    border: 0.6px ;
+    padding-left: 30px;
+    font-size: 25px;
+    line-height: 28px;
+    position: relative;
+    left: 10%;
+    -webkit-transition: all .10s;
+    -moz-transition: all .10s;
+    -o-transition: all .10s;
+    -ms-transition: all .10s;
+    transition: all .10s;
+}
+
+#courses ul li a{
+    text-decoration: none;
+    color: #fff;
+
+}
+#courses img{
+    width: 250px;
+    border-radius: 10px;
+    border: 2px solid #000;
+
+}
+.apply{
+    margin-top: 4%;
+    background-color: green;
+    padding: 0.7rem 1rem;
+    color: #CCC;
+    border: none;
+    border-radius: 10px ;
+}
